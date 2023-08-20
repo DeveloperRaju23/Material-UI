@@ -1,15 +1,15 @@
 
-import { Typography } from '@mui/material'
 import './App.css'
+import Home from './Components/Home'
+
+
 
 function App() {
 
 
   return (
     <>
-        <Typography variant='h1'>
-            Hello
-        </Typography>
+      <Home/>
     </>
   )
 }
